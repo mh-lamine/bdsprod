@@ -1,141 +1,99 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/accueil.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>ohmyfood</title>
+    <title>BDS PRODUCTION</title>
   </head>
   <body>
-    <div class="loader">
-      <span class="spinner"></span>
-    </div>
+    <video src="videos/bds.mp4" playsinline muted autoplay loop></video>
+    <div class="overlay"></div>
     <header>
-      <img src="images/logo/ohmyfood.png" alt="logo_ohmyfood" class="logo" />
-      <p><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
-      <div class="presentation">
-        <h1>Réservez le menu qui vous convient</h1>
-        <h2>
-          Découvrez des restaurants d'exception, sélectionnés par nos soins.
-        </h2>
-        <a href="#">Explorer nos restaurants</a>
+      <img src="images/bds.png" />
+      <div class="header-content">
+        <h2>bds production</h2>
+        <h4>pour capturer l'instant</h4>
+        <p>Confiez-nous vos plus beaux moments</p>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/bds_prod_/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="tel:+33629640428"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     </header>
-    <section class="fonctionnement">
-      <h1>Fonctionnement</h1>
-      <div class="fonctionnement-grid">
-        <div class="fct_steps">
-          <i class="fa-solid fa-1"></i>
-          <i class="fa-solid fa-mobile-screen-button icon"></i>
-          <h3>Choisissez un restaurant</h3>
-        </div>
-        <div class="fct_steps">
-          <i class="fa-solid fa-2"></i>
-          <i class="fa-solid fa-list-ul icon"></i>
-          <h3>Composez votre menu</h3>
-        </div>
-        <div class="fct_steps">
-          <i class="fa-solid fa-3"></i>
-          <i class="fa-solid fa-store icon"></i>
-          <h3>Dégustez au restaurant</h3>
+    <main>
+      <h3>Nos réalisations</h3>
+      <div class="grid grid1">
+        <img src="images/nosrea/lefoto (3).JPG" />
+        <div class="grid-content">
+          <h5>L'équipe</h5>
+          <p>
+            L'équipe est composée d'un photographe expérimenté capable de
+            prendre des clichés de haute qualite, d'un photographe secondaire
+            principalement chargé de la gestion des projets et de collaborateurs
+            externes à qui nous pouvons faire appel si nécéssaire.
+          </p>
         </div>
       </div>
-    </section>
-    <main class="restaurant">
-      <h1>Restaurants</h1>
-      <div class="restaurant-grid">
-        <a href="pages/lpdg.html" class="cards">
-          <article>
-            <img
-              src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-              alt="jay_wennington"
-            />
-            <div class="card_container">
-              <div class="card_txt c1">
-                <h2>La palette du goût</h2>
-                <p>Ménilmontant</p>
-              </div>
-              <div class="heart">
-                <i class="fa-regular fa-heart empty"></i>
-                <i class="fa-solid fa-heart full"></i>
-              </div>
-            </div>
-            <span class="new">Nouveau</span>
-          </article>
-        </a>
-        <a href="pages/lne.html" class="cards">
-          <article>
-            <img
-              src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-              alt="stil"
-            />
-            <div class="card_container">
-              <div class="card_txt c2">
-                <h2>La note enchantée</h2>
-                <p>Charonne</p>
-              </div>
-              <div class="heart">
-                <i class="fa-regular fa-heart empty"></i>
-                <i class="fa-solid fa-heart full"></i>
-              </div>
-            </div>
-            <span class="new">Nouveau</span>
-          </article>
-        </a>
-        <a href="pages/alf.html" class="cards">
-          <article>
-            <img
-              src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-              alt="toa_heftiba"
-            />
-            <div class="card_container">
-              <div class="card_txt c3">
-                <h2>À la française</h2>
-                <p>Cité Rouge</p>
-              </div>
-              <div class="heart">
-                <i class="fa-regular fa-heart empty"></i>
-                <i class="fa-solid fa-heart full"></i>
-              </div>
-            </div>
-          </article>
-        </a>
-        <a href="pages/ldds.html" class="cards">
-          <article>
-            <img
-              src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-              alt="louis_hansel"
-            />
-            <div class="card_container">
-              <div class="card_txt c4">
-                <h2>Le délice des sens</h2>
-                <p>Folie-Méricourt</p>
-              </div>
-              <div class="heart">
-                <i class="fa-regular fa-heart empty"></i>
-                <i class="fa-solid fa-heart full"></i>
-              </div>
-            </div>
-          </article>
-        </a>
+      <div class="grid grid2">
+        <img src="images/nosrea/lefoto (14).JPG" />
+        <div class="grid-content">
+          <h5>Prises</h5>
+          <p>
+            Nous proposons divers prises allant de simples photos et vidéos pour
+            des publications Instagram aux photos évènementielles telles que
+            pour un mariage ou un enterrement. Mais également des vidéos plus
+            complexes telles qu’un clip, ou un spot publicitaire.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid1">
+        <img src="images/nosrea/lefoto (7).JPG" />
+        <div class="grid-content">
+          <h5>Services</h5>
+          <p>
+            Nous proposons également plusieurs services de retouche. A l’aide
+            des logiciels Adobe, nous pouvons monter vos vidéos pour y ajouter
+            des effets et de la musique. Nous pouvons également supprimer les
+            imperfections, modifier les fonds et les tons de couleurs.
+          </p>
+        </div>
       </div>
     </main>
-    <footer>
-      <img src="images/logo/ohmyfood.png" alt="logo_ohmyfood" />
-      <a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
-      <a href="#"
-        ><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a
-      >
-      <a hef="#" class="grey">Mentions légales</a>
-      <a href="#" class="grey">Contact</a>
-    </footer>
+    <div id="objectif"></div>
+    <section class="avis">
+      <h3>Leurs avis</h3>
+      <div class="grid grid-content">
+        <img src="images/extra/kyliej.jpg" />
+        <p>
+          Très belles photos, ils ont su me mettre en valeur. Je recommande !
+        </p>
+        <h5>Kylie J.</h5>
+      </div>
+      <div class="grid grid-content">
+        <img src="images/extra/IMG_7518.JPG" />
+        <p>
+          Sah quel plaisir ce fut de Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.
+        </p>
+        <h5>Élie Y.</h5>
+      </div>
+      <div class="grid grid-content">
+        <img src="images/extra/IMG_4810.jpg" />
+        <p>Tu les payes mais ils me payent pas. Téma la taille du rongeur...</p>
+        <h5>Lamine N.</h5>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
   </body>
 </html>

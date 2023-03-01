@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: .7;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #827397;
+    mix-blend-mode: overlay;
+    z-index: -1;
+}
+header{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 4em;
+    filter: invert(1);
+    opacity: .8;
+}
+.header-content{
+    color: white;
+    text-align: center;
+    margin: 1em;
+    font-size: clamp(1em, 4vw, 1.8em);
+}
+.header-content h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.header-content h4{
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+.header-content p{
+    font-size: .8em;
+}
+.socials a{
+    font-size: 1.5em;
+    color: white;
+    margin: 0 .2em;
+    cursor: pointer;
+    opacity: .8;
+}
+
+/* main */
+
+main h3{
+    width: 100vw;
+    text-transform: uppercase;
+    background-color: #333;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 1em 0;
+    text-align: center;
+    font-size: clamp(1em, 4vw, 1.8em);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.grid-content{
+    padding: 1em;
+    font-size: max(1em, 4vw);
+    text-align: center;
+}
+.grid img{
+    width: 100%;
+}
+.grid-content h5{
+    margin-bottom: .5em;
+}
+.grid-content p{
+    margin-inline: auto;
+    font-size: .8em;
+}
+
+/* section - avis */
+
+#objectif{
+    background: url("../images/bgi.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    transition: ease;
+}
+.avis h3{
+    width: 100vw;
+    text-transform: uppercase;
+    background-color: #333;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 1em 0;
+    text-align: center;
+    font-size: clamp(1em, 4vw, 1.8em);
+}
+.avis h5{
+    margin-bottom: 0;
+    margin-top: .5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E9D5DA;
+}
+.avis img{
+    width: 40%;
+    margin-inline: auto;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 35em){
+    header{
+        align-items: baseline;
+        padding: 5em;
+        justify-content: space-between;
+    }
+    .header-content{
+        text-align: left;
+        margin: 0;
+    }
+}
