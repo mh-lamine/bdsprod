@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 import pic4 from '../assets/images/nosrea/pic4.png'
+import pic7 from '../assets/images/nosrea/pic7.png'
+import pic14 from '../assets/images/nosrea/pic14.png'
 
 export default function Gallery() {
     useEffect(() => {
@@ -29,11 +31,11 @@ export default function Gallery() {
         className="gallery-image rounded-lg hover:scale-105 transition-transform duration-500"
       />
       <img
-        src="src/assets/images/nosrea/pic7.png"
+        src={pic7}
         className="gallery-image rounded-lg hover:scale-105 transition-transform duration-500"
       />
       <img
-        src="src/assets/images/nosrea/pic14.png"
+        src={pic14}
         className="gallery-image rounded-lg hover:scale-105 transition-transform duration-500"
       />
     </div>
