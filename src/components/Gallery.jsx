@@ -24,15 +24,15 @@ export default function Gallery() {
   return (
     <div className="grid gap-4 py-6 border-b-2">
       <img
-        src="src/assets/images/nosrea/lefoto (4).JPG"
+        src="src/assets/images/nosrea/pic4.JPG"
         className="gallery-image rounded-lg hover:scale-105 transition-transform duration-500"
       />
       <img
-        src="src/assets/images/nosrea/lefoto (7).JPG"
+        src="src/assets/images/nosrea/pic7.JPG"
         className="gallery-image rounded-lg hover:scale-105 transition-transform duration-500"
       />
       <img
-        src="src/assets/images/nosrea/lefoto (14).JPG"
+        src="src/assets/images/nosrea/pic14.JPG"
         className="gallery-image rounded-lg hover:scale-105 transition-transform duration-500"
       />
     </div>
