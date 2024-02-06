@@ -18,7 +18,7 @@ export default function Home() {
           Réservez votre shooting
         </button>
       </main>
-      <footer className="bg-slate-900 text-white p-6">
+      <footer className="bg-slate-900 text-white p-20">
         <div className="flex justify-center gap-8 py-2">
           <span>Facebook</span>
           <span>Instagram</span>
