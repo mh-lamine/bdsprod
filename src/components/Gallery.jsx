@@ -4,10 +4,7 @@ import pic7 from "../assets/images/nosrea/pic7.png";
 import pic14 from "../assets/images/nosrea/pic14.png";
 
 export default function Gallery() {
-  // const [count, setCount] = useState(0);
-  // useEffect(()=>{
-  //   document.
-  // })
+  
   useEffect(() => {
     const images = document.querySelectorAll(".gallery-image");
 

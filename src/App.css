@@ -1,5 +1,5 @@
-/* .sticky-parallax-header {
-  background-image: url("./assets/images/nosrea/headerbg.JPG");
+.sticky-parallax-header {
+  background-image: url("./assets/images/nosrea/headerbg.png");
   position: fixed;
   top: 0;
   color: #fff;
@@ -12,4 +12,4 @@
   place-items: center;
   text-align: center;
   font-size: calc(4vw + 1em);
-} */
+}
