@@ -5,26 +5,26 @@ import pic14 from "../assets/images/nosrea/pic14.png";
 
 export default function Gallery() {
   
-  useEffect(() => {
-    const images = document.querySelectorAll(".gallery-image");
+  // useEffect(() => {
+  //   const images = document.querySelectorAll(".gallery-image");
 
-    images.forEach((image) => {
-      image.animate(
-        {
-          opacity: [0, 1],
-          clipPath: ["inset(45% 20% 45% 20%)", "inset(0% 0% 0% 0%)"],
-        },
-        {
-          fill: "both",
-          timeline: new ViewTimeline({
-            subject: image,
-          }),
-          rangeStart: "entry 25%",
-          rangeEnd: "cover 50%",
-        }
-      );
-    });
-  });
+  //   images.forEach((image) => {
+  //     image.animate(
+  //       {
+  //         opacity: [0, 1],
+  //         clipPath: ["inset(45% 20% 45% 20%)", "inset(0% 0% 0% 0%)"],
+  //       },
+  //       {
+  //         fill: "both",
+  //         timeline: new ViewTimeline({
+  //           subject: image,
+  //         }),
+  //         rangeStart: "entry 25%",
+  //         rangeEnd: "cover 50%",
+  //       }
+  //     );
+  //   });
+  // });
   return (
     <div className="grid gap-4 py-6 border-b-2">
       <img

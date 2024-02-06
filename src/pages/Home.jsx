@@ -6,7 +6,6 @@ export default function Home() {
     <div className="mt-[100vh]">
       <Navbar />
       <main className="m-6">
-        {/* <img src="src/assets/images/nosrea/hero.JPG" /> */}
         <h1 className="text-3xl py-6 font-semibold">
           Tirez le Meilleur de Chaque Instant
         </h1>
