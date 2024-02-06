@@ -1,10 +1,12 @@
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import headerbg from "../assets/images/nosrea/headerbg.png";
 
 export default function Navbar() {
   useEffect(() => {
     const header = document.querySelector(".sticky-parallax-header");
-    // header.style.backgroundImage = "url(./assets/images/nosrea/headerbg.JPG)";
+
+    header.style.backgroundImage = `url(${headerbg})`;
 
     header.animate(
       {
