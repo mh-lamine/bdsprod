@@ -1,30 +1,31 @@
 import { useEffect } from 'react'
+import pic4 from '../assets/images/nosrea/pic4.JPG'
 
 export default function Gallery() {
-    // useEffect(() => {
-    //     const images = document.querySelectorAll(".gallery-image");
+    useEffect(() => {
+        const images = document.querySelectorAll(".gallery-image");
 
-    //     images.forEach((image) => {
-    //       image.animate(
-    //         {
-    //           opacity: [0, 1],
-    //           clipPath: ["inset(45% 20% 45% 20%)", "inset(0% 0% 0% 0%)"],
-    //         },
-    //         {
-    //           fill: "both",
-    //           timeline: new ViewTimeline({
-    //             subject: image,
-    //           }),
-    //           rangeStart: "entry 25%",
-    //           rangeEnd: "cover 50%",
-    //         }
-    //       );
-    //     });
-    // }, []);
+        images.forEach((image) => {
+          image.animate(
+            {
+              opacity: [0, 1],
+              clipPath: ["inset(45% 20% 45% 20%)", "inset(0% 0% 0% 0%)"],
+            },
+            {
+              fill: "both",
+              timeline: new ViewTimeline({
+                subject: image,
+              }),
+              rangeStart: "entry 25%",
+              rangeEnd: "cover 50%",
+            }
+          );
+        });
+    }, []);
   return (
     <div className="grid gap-4 py-6 border-b-2">
       <img
-        src="src/assets/images/nosrea/pic4.JPG"
+        src={pic4}
         className="gallery-image rounded-lg hover:scale-105 transition-transform duration-500"
       />
       <img
